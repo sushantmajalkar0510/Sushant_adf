@@ -1,0 +1,15 @@
+{
+	"name": "sushant-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "06d0060f-2ba9-4b67-baf7-c7acd2cb2a6f",
+		"tenantId": "1349308b-ef81-43c1-8c3b-44cbb83d04a0"
+	}
+}

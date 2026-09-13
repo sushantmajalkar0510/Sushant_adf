@@ -1,0 +1,16 @@
+{
+	"name": "LS_MongoDb2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "MongoDbV2",
+		"typeProperties": {
+			"connectionString": "mongodb://localhost:27017/",
+			"database": "local"
+		},
+		"connectVia": {
+			"referenceName": "lsselfhostedIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

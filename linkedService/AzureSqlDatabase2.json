@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "bunnyserver1.database.windows.net",
+			"database": "bunnydatabase",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "bunnyadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENCMDQ4MDQ1LURFMTktNDc0Ni1BQ0JDLTNENUQyRTIyMDY1Q19lOGQ3MGE5Yy01MDJkLTQ0ZTgtYjk1ZS1iMTFmMjFlMTdmNTAiDQp9"
+		}
+	}
+}

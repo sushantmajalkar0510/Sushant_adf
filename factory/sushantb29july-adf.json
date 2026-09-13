@@ -1,0 +1,15 @@
+{
+	"name": "sushantb29july-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b71a1702-6d85-453f-a6c6-a4f800e78e00",
+		"tenantId": "637a6fd9-54fd-438a-babd-729c3a42c6c4"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "ds_mongo2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_MongoDb2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MongoDbV2Collection",
+		"schema": [],
+		"typeProperties": {
+			"collection": "startup_log"
+		}
+	}
+}

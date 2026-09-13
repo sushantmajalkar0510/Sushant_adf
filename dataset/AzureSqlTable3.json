@@ -1,0 +1,29 @@
+{
+	"name": "AzureSqlTable3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sourcefilename",
+				"type": "varchar"
+			},
+			{
+				"name": "sinktablename",
+				"type": "varchar"
+			},
+			{
+				"name": "schema1",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "config_sushant"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"name": "sushantmadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bfa16922-da27-4693-adb8-7937a056e713",
+		"tenantId": "24ce36ad-9035-4009-b744-11e85c36fec1"
+	}
+}

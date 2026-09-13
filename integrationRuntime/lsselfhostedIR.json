@@ -1,0 +1,6 @@
+{
+	"name": "lsselfhostedIR",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
