@@ -1,0 +1,6 @@
+{
+	"name": "sushantintegrationRuntime1",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
